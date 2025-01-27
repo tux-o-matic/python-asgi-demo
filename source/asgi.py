@@ -10,7 +10,6 @@ config = Config()
 config.accesslog = '-'
 config.bind = ["0.0.0.0:8080"]
 config.errorlog = '-'
-config.workers = 1
 
 app = Quart(__name__)
 app.asgi_app = OpenTelemetryMiddleware(app.asgi_app)
