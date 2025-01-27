@@ -25,3 +25,4 @@ podman run -it --rm -e APP_FILE=asgi.py -p 0.0.0.0:8080:8080 python-asgi
 Configure these things:
 - Pass an ENV of `APP_FILE=asgi.py`.
 - Set HTTP probes against `/health`.
+- Container port and Service should point to `8080`.
