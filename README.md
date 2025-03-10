@@ -4,6 +4,7 @@ The goal is to have an ASGI web app ready to be running in a container locally o
 The app starts a [single asyncio worker programmatically for Hypercorn](https://hypercorn.readthedocs.io/en/latest/how_to_guides/api_usage.html#features-caveat). 
 
 ## Local development
+After cloning the repo and changing directory into it.
 ```shell
 python3 -m venv venv
 source venv/bin/activate
